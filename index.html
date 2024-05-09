@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  <title>Frontend Mentor | Advice generator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>   
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Freyanna010">Anna Lopina</a>.
+  </div> -->
+
+  <div class="advice">
+    <div class="advice__content">
+      <h1 class="content__title">
+        Advice #<span id="title"></span>
+      </h1>
+      <p class="content__text">
+        "<span id="text"></span>"
+      </p>
+
+    <picture class="advice__img">
+      <source media="(max-width:500px)" srcset="./images/pattern-divider-mobile.svg">
+      <img src="./images/pattern-divider-desktop.svg" alt="dice">
+    </picture>
+    
+
+    <button class="advice__btn">
+      <img src="./images/icon-dice.svg" alt="" >
+    </button>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
